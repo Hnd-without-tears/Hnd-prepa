@@ -9,15 +9,15 @@ function App() {
         <p className={styles.signupinst}>Create Your Account</p>
         <form action="" className={styles.signupfield}>
           {/* <p htmlFor="firstname">Full Name</p> */}
-          <input type="text" placeholder="Full Names..." />
+          <input type="text" name="password"  placeholder="Full Names..." />
           {/* <label htmlFor="Username">Username</label> */}
-          <input type="text" placeholder="Username..." />
+          <input type="text" name="password"  placeholder="Username..." />
           {/* <label htmlFor="firstname">Email</label> */}
           <input type="text" placeholder="Email Address..." />
           {/* <label htmlFor="Password">Password</label> */}
-          <input type="text" placeholder="Password..." />
+          <input type="text" name="password" placeholder="Password..." />
           {/* <label htmlFor="firstname">Confirm Password</label> */}
-          <input type="text" placeholder="Confirm Password..." />
+          <input type="text" name="password" placeholder="Confirm Password..." />
           <div className={styles.accept}>
             <input type="checkbox" className={styles.remember} />
             <a href="/"className={styles.policy}>agree to terms and condition</a>
